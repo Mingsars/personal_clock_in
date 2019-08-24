@@ -1,0 +1,113 @@
+/* 页面盒子 */
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* 盒子模型 */
+.flex {
+  display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */  
+  display: -moz-box; /* Firefox 17- */  
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */  
+  display: -moz-flex; /* Firefox 18+ */  
+  display: -ms-flexbox; /* IE 10 */  
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */  
+}
+.flex-1 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;    
+}
+
+/* 浮动 */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfloat {
+  zoom: 1;
+}
+.clearfloat::after {
+  display: block;
+  content: "";
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+/* 字体 */
+.f12 {
+  font-size: 12px !important;
+}
+.f16 {
+  font-size: 16px !important;
+}
+.f18 {
+  font-size: 18px !important;
+}
+.f20 {
+  font-size: 20px !important;
+}
+.c333 {
+  color: #333 !important;
+}
+.c999 {
+  color: #999 !important;
+}
+
+/* 边距 */
+/* margin-left */
+.ml5 {
+  margin-left: 5px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.ml15 {
+  margin-left: 15px;
+}
+.ml20 {
+  margin-left: 20px;
+}
+/* margin-right */
+.mr5 {
+  margin-right: 5px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mr15 {
+  margin-right: 15px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+/* margin-top */
+.mt5 {
+  margin-top: 5px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+/* margin-bottom */
+.mb5 {
+  margin-bottom: 5px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
