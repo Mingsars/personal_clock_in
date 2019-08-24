@@ -12,6 +12,7 @@ container 定义在common.css
 使用连字符例如  ** box-item **
 
 ## 属性顺序
+```css
 .main {
   position: absolute; //  定位放在前面
   top: 0;
@@ -20,12 +21,15 @@ container 定义在common.css
   width: 500px;
   color: #fff;  //  其他属性最后
 }
+```
 
 ##  选择器嵌套
 嵌套最多不要超过三层
+```css
 .main .head .title{
   font-size: 20px;
 }
+```
 
 ##  优先样式
 优先使用common.css中已经定义的类名对应的样式
@@ -39,6 +43,7 @@ container 定义在common.css
 
 ## 书写规范
 关键字前面加上空格例如
+```javascript
 function submit(a, b) {
   for(var i = 0; i < arr.length; i++) {
     if (i < 5) {
@@ -50,3 +55,4 @@ function submit(a, b) {
     }
   }
 }
+```
