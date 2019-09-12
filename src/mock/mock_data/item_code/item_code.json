@@ -1,0 +1,32 @@
+{
+  "study": {
+    "text": "学习",
+    "unfinish_code": "-2",
+    "finish_code": "2",
+    "id": "1"
+  },
+  "in_time_sleep": {
+    "text": "到点睡觉",
+    "unfinish_code": "-2",
+    "finish_code": "1",
+    "id": "2"
+  },
+  "coding": {
+    "text": "编码",
+    "unfinish_code": "-2",
+    "finish_code": "2",
+    "id": "3"
+  },
+  "anneal": {
+    "text": "锻炼",
+    "unfinish_code": "-2",
+    "finish_code": "3",
+    "id": "4"
+  },
+  "game_time_control": {
+    "text": "控制游戏时间",
+    "unfinish_code": "-3",
+    "finish_code": "2",
+    "id": "5"
+  }
+}
